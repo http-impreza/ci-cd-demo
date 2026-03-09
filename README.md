@@ -73,8 +73,8 @@ ssh-copy-id -i ~/.ssh/ci_deploy.pub user@<server-tailscale-ip>
 
 ### 3. Create Tailscale OAuth Credentials
 
-1. Go to [Tailscale Admin Console → Settings → OAuth clients](https://login.tailscale.com/admin/settings/oauth)
-2. Create a new OAuth client
+1. Go to [Tailscale Admin Console → Settings → Trust clients](https://login.tailscale.com/admin/settings/trust-credentials)
+2. Create a new OAuth credential
 3. Grant it the `Devices: Write` scope so it can register the CI runner on your tailnet
 4. Note the **Client ID** and **Client Secret**
 
