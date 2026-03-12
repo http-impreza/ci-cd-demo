@@ -26,6 +26,7 @@ function App() {
         <div className="app">
             <h1>Todo App</h1>
             <p className="tagline">Cheers to being more productive</p>
+            <p className="tagline">Cheers to a new us!</p>
             <div className="input-row">
                 <input
                     value={text}
