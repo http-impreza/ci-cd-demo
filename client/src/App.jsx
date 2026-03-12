@@ -28,6 +28,10 @@ function App() {
             <p className="tagline">Live build pushed through the CI/CD demo</p>
             <p className="tagline">Live build pushed through the CI/CD demo</p>
             <p className="tagline">Live build pushed through the CI/CD demo</p>
+            <p className="tagline">Live build pushed through the CI/CD demo</p>
+            <p className="tagline">Live build pushed through the CI/CD demo</p>
+            <p className="tagline">Live build pushed through the CI/CD demo</p>
+            <p className="tagline">HI</p>
             <div className="input-row">
                 <input
                     value={text}
