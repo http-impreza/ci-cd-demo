@@ -25,6 +25,7 @@ function App() {
     return (
         <div className="app">
             <h1>Todo App</h1>
+            <p className="tagline">Live build pushed through the CI/CD demo</p>
             <div className="input-row">
                 <input
                     value={text}
